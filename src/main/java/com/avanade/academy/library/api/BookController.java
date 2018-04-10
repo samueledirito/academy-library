@@ -21,7 +21,7 @@ public class BookController {
     }
 
     @GetMapping
-    public BookItem test() {
+    public BookItem getAllBooks() {
         return new BookItem("Il Titolo");
     }
 
